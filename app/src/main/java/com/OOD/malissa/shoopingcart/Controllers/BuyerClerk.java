@@ -37,7 +37,7 @@ public class BuyerClerk extends StoreClerk {
     //region SINGLETON SETUP
     private static BuyerClerk ourInstance = new BuyerClerk();
 
-    public static BuyerClerk getInstance() {
+    public static BuyerClerk getInstance() { 
         return ourInstance;
     }
 
